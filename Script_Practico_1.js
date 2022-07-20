@@ -14,4 +14,24 @@ while (contador != 5) {
     contador = contador + 1;
     
 }
+
+console.log("Prueba con for")
+
+
+for (contador = 0; contador != 5; contador++) {
+    if (contador == 0) {
+        console.log(" Estamos por empezar a contar revenge");
+    }
+
+    else if (contador == 1 || contador == 3) {
+        console.log("Iteracion insignificante, no nos gustan los numero impar revenge");
+    }
+    else {
+        console.log("Iteracion Revenge Numero :" + contador);
+    }
+
+
+}
+
+
 // JavaScript source code
